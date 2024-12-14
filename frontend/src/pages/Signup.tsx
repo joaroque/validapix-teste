@@ -34,7 +34,7 @@ export default function ClientSignup() {
                 type="text"
                 placeholder="Nome completo"
                 className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-gray-700 
-                  focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-200 
+                  focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 
                   transition-all duration-300 ease-in-out"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
@@ -46,7 +46,7 @@ export default function ClientSignup() {
                 type="password"
                 placeholder="Senha"
                 className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-gray-700 
-                  focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-200 
+                  focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 
                   transition-all duration-300 ease-in-out"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
@@ -58,7 +58,7 @@ export default function ClientSignup() {
                 type="text"
                 placeholder="CPF"
                 className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-gray-700 
-                  focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-200 
+                  focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 
                   transition-all duration-300 ease-in-out"
                 value={cpf}
                 onChange={(e) => setCpf(e.target.value)}
@@ -70,7 +70,7 @@ export default function ClientSignup() {
                 type="number"
                 placeholder="Valor Inicial"
                 className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-gray-700 
-                  focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-200 
+                  focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 
                   transition-all duration-300 ease-in-out"
                 value={balance}
                 onChange={(e) => setBalance(e.target.value)}
