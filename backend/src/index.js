@@ -14,7 +14,7 @@ app.use(errorHandler);
 
 // @ts-ignore
 app.get("/", (req, res) => {
-  return res.json({ message: "Teste técnico ValidaPix" }).sendStatus(200);
+  return res.json({ message: "Teste técnico ValidaPix" });
 });
 
 app.listen(PORT, () => {

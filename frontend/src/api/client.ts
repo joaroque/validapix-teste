@@ -11,6 +11,7 @@ export async function createClient(
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ fullname, password, cpf, balance }),
   });
+  console.log(res);
   if (!res.ok) throw new Error("Erro ao criar cliente");
   return res.json();
 }
@@ -21,6 +22,7 @@ export async function login(cpf: string, password: string) {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ cpf, password }),
   });
+  console.log(res);
   if (!res.ok) throw new Error("Falha no login");
   return res.json();
 }
