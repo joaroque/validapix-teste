@@ -33,12 +33,10 @@ export const listTransactionsController = async (req, res) => {
 
 export const addPixController = async (req, res) => {
   const { amount, payeeCPF } = req.body;
-  console.log("Passow");
 
   if (!amount || !amount) {
     return res.status(401).json({ error: "Dados insuficientes." });
   }
-  console.log("Passow");
 
   const payerId = req.clientId;
 
