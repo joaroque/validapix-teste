@@ -49,11 +49,13 @@ Este é um projeto desenvolvido como parte de um desafio técnico. O objetivo é
 
 ## 📂 **Estrutura do Projeto**
 
+```
 📦 validapix-teste
-├── backend/  
+├── backend/
 ├── frontend/
 ├── docker-compose.yml
 └── README.md
+```
 
 ---
 
